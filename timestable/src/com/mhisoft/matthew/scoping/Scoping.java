@@ -9,6 +9,11 @@ package com.mhisoft.matthew.scoping;
 
 public class Scoping {
 
+	private class InnerClass {
+		  //this is private inner class.
+
+	}
+
 	public static void main(String[] args) {
 		{
 			int x = 12;
