@@ -34,7 +34,7 @@ public class ForProgram {
 					prt("break outer");
 					break outer;
 				}
-			}
+			}  //end of the while loop
 
 		}
 	}
