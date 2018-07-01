@@ -10,6 +10,9 @@ package com.mhisoft.matthew;
 
 public class CalculatePi {
 
+	/**
+	 * @param args arguments of the main method
+	 */
 	public static void main(String[] args) {
 		for (int s = 6; s <= 96; s = s + 6) {
 			System.out.println("sides=" + s);
