@@ -6,20 +6,23 @@ package com.mhisoft.matthew;
  * @author Matthew Xue
  * @since 10/1/14
  */
-
+   //1/4 pi = 1/3-1/5+1/7-1/9...
 
 public class CalculatePi {
 
-	/**
-	 * @param args arguments of the main method
-	 */
 	public static void main(String[] args) {
-		for (int s = 6; s <= 96; s = s + 6) {
-			System.out.println("sides=" + s);
-			//calculate the circumference of  the polygon (this polygon has "s" number of sides )
-
+		double pi = 0;
+		 double Numerator = 1;
+		int Numbers = 1000000000;
+		for (int i = 1; i < Numbers; i = i+2) {
+			pi += Numerator/i;
+			Numerator = -Numerator;
+			
 		}
+		System.out.println("Pi =" + pi*4);
 	}
+
+
 }
 
 

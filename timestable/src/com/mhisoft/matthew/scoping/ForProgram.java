@@ -35,7 +35,7 @@ public class ForProgram {
 					break outer;
 				}
 			}  //end of the while loop
-
+			System.out.println("outside of the loop");
 		}
 	}
 	static void prt(String s) {
