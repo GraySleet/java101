@@ -15,29 +15,34 @@
 
 package com.mhisoft.matthew.scoping;
 
-import java.util.Date;
+
 
 /**
  * @author Matthew Xue
- * @since 8/6/18
+ * @since 8/9/18
  */
 
 
-class Fibonacci{
-	public static void main(String args[])
-	{
-		int n1=0,n2=1,n3,i,count=25;
-
-		System.out.println("Matthew run this @"+ new Date());
-
-		System.out.print(n1+" "+n2);
-
-		for(i=2;i<count;++i)
-		{
-			n3=n1+n2;
-			System.out.print(" "+n3);
-			n1=n2;
-			n2=n3;
+public class Array {
+	public static void main(String[] args) {
+		int[] a1 = { 1, 2, 3, 4, 5 };
+		int [] a2;
+		a2 = a1;
+		for (int i = 0; i < a2.length; i++)
+			a2[i]++;
+			for (int i = 0; i < a1.length; i++)  {
+				System.out.print("al[" + i + "]=" + a1[i]);
+				System.out.println(", a2[" + i + "]=" + a2[i]);
+			}
 		}
+		static void prt(String s) {
+			System.out.println(s);
 
-	}}
+
+
+
+
+
+
+	}
+}

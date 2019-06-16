@@ -15,29 +15,9 @@
 
 package com.mhisoft.matthew.scoping;
 
-import java.util.Date;
-
 /**
  * @author Matthew Xue
- * @since 8/6/18
+ * @since 8/11/18
  */
 
 
-class Fibonacci{
-	public static void main(String args[])
-	{
-		int n1=0,n2=1,n3,i,count=25;
-
-		System.out.println("Matthew run this @"+ new Date());
-
-		System.out.print(n1+" "+n2);
-
-		for(i=2;i<count;++i)
-		{
-			n3=n1+n2;
-			System.out.print(" "+n3);
-			n1=n2;
-			n2=n3;
-		}
-
-	}}
