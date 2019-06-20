@@ -1,0 +1,10 @@
+package com.mhisoft.matthew.compositionInheritance;
+
+public class DinnerPlate extends Plate {
+    DinnerPlate (int i) {
+        super(i);
+        System.out.println("DinnerPlate constructor"
+
+        );
+    }
+}
