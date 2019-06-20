@@ -23,9 +23,9 @@ package com.mhisoft.matthew.polymorphism;
 
 
 public class Shape {
-	void draw() {
+	void draw(int i) {
 	}
 
-	void erase() {
+	void erase(int i) {
 	}
 }

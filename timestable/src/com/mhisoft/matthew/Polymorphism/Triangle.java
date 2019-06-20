@@ -23,11 +23,11 @@ package com.mhisoft.matthew.polymorphism;
 
 
 public class Triangle extends Shape {
-	void draw() {
-		System.out.println("Triangle.draw()");
+	void draw(int i) {
+		System.out.println( i+ ":  Triangle.draw()");
 	}
 
-	void erase() {
-		System.out.println("Triangle.erase()");
+	void erase(int i) {
+		System.out.println( i+ ":  Triangle.erase()");
 	}
 }

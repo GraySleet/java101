@@ -21,11 +21,11 @@ package com.mhisoft.matthew.polymorphism;
  * @since TMS 6.4.1
  */
 public class Square extends Shape {
-	void draw() {
-		System.out.println("Square.draw()");
+	void draw(int i) {
+		System.out.println( i+ ":  Square.draw()");
 	}
 
-	void erase() {
-		System.out.println("Square.erase()");
+	void erase(int i) {
+		System.out.println( i+ ":  Square.erase()");
 	}
 }

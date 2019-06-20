@@ -21,11 +21,11 @@ package com.mhisoft.matthew.polymorphism;
  * @since TMS 6.4.1
  */
 public class Circle extends Shape {
-	void draw() {
-		System.out.println("Circle.draw()");
+	void draw(int i) {
+		System.out.println(i+ ":  Circle.draw()");
 	}
 
-	void erase() {
-		System.out.println("Circle.erase()");
+	void erase(int i) {
+		System.out.println(i+ ": Circle.erase()");
 	}
 }

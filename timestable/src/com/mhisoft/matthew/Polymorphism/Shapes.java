@@ -39,7 +39,7 @@ public 	static void main(String[] args) {
 		for (int i = 0; i < s.length; i++)
 			s[i] = randShape();
 		for (int i = 0; i < s.length; i++) {
-			s[i].draw();
+			s[i].draw(i+1);
 		}
 	}
 
