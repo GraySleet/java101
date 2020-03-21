@@ -1,3 +1,5 @@
+package pattern;
+
 import java.util.Scanner;
 
 public class Singleton {
@@ -40,11 +42,7 @@ public class Singleton {
         for (int i = 0; i < input.length(); i++) {
             if (!input.substring(i, i+1).equals(" ")){
                 x += input.substring(i, i+1);
-
-
-
             }
-
 
         }
         return x;
