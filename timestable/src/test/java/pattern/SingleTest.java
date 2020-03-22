@@ -23,7 +23,26 @@ public class SingleTest {
         Assert.assertEquals("OneTwoThree.", result  );
         System.out.println("result:" + result);
     }
-
-
+    @Test
+    public void testStringWith_WhiteSpacesAfter() {
+        String testString="1                                          ";
+        String result =  Singleton.getInstance().stripString(testString);
+        Assert.assertEquals("1", result  );
+        System.out.println("result:" + result);
+    }
+    @Test
+    public void testStringWith_WhiteSpacesEverywhere() {
+        String testString="          1               1           ";
+        String result =  Singleton.getInstance().stripString(testString);
+        Assert.assertEquals("11", result  );
+        System.out.println("result:" + result);
+    }
+    @Test
+    public void testNull() {
+        String testString=null;
+        String result =  Singleton.getInstance().stripString(testString);
+        Assert.assertEquals("error", result  );
+        System.out.println("result:" + result);
+    }
 }
 
