@@ -1,82 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bb1a9df-6cf0-49d8-8089-1179c7690827" name="Default" comment="changed and resrun on 2019 summer">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pattern/SingleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../scoping/scoping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../scoping/scoping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="1bb1a9df-6cf0-49d8-8089-1179c7690827" name="Default" comment="refactors and unit test for Singleton class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/FigureCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/FigureFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCompsci/AIFriend/AIFriend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCompsci/AIFriend/Review/PosAdjectives.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCompsci/AIFriend/Review/Review.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCompsci/AIFriend/Review/SimpleReview.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCompsci/AIFriend/Review/SimpleReviewMod.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCompsci/AIFriend/Review/cleanSentiment.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/APCompsci/AIFriend/Review/negAdjectives.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Bubble/Bubble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/CalculatePi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/FactorialCalculations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/FinallyPackage/FinallyWorks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/FinallyPackage/OnOffSwitch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/FinallyPackage/WithFinally.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/HelloProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/IceCream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Initialization/Beetle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Initialization/Insect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Map/Collection1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Mapperformance/MapPerformance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/RTTI/RTTI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Stacks/Stacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/TimeTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/alpha/AlphaComp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/alpha/ArraysTookbox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionInheritance/Custom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionInheritance/DinnerPlate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionInheritance/Fork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionInheritance/Knife.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionInheritance/PlaceSetting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionInheritance/Plate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionInheritance/Spoon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionInheritance/Utensil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionVsInheritance/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionVsInheritance/Door.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionVsInheritance/Engine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionVsInheritance/Wheel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/compositionVsInheritance/Window.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/constructorCalls/Sandwich.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/exceptionRestrictions/StormyInning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/finalize/Frog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/finalize/Untitled.mdj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/hastable/AssocArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/hastable/HashMapExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/inheriting/Inheriting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/instruments/Frog.mdj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/instruments/Instrument3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/instruments/Music3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/javalogs/logs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/mathlab/ConeCalcs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/multipleInheritance/Adventure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/polymorphism/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/polymorphism/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/polymorphism/Shapes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/polymorphism/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/polymorphism/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/rethrowing/Rethrowing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/Alphabet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/Array2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/BubbleArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/Fibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/First.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/ForElse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/ForLoop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/ForProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/Ifmatthew.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/PrintPrime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/Scoping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/scoping/Second.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/sinosoidalAxis/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/timestable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/timestable.iml" afterDir="false" />
     </list>
     <list id="15101483-f870-44db-a8b9-c08034bbbfb4" name="local project files" comment="local project files">
@@ -145,11 +74,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pattern/Singleton.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/FigureFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ShapeMath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/FigureCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/FactorialCalculations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../lib/junit-4.13.jar!/org/junit/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -158,10 +154,28 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/pattern/SingleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../scoping/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.idea/.name">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -193,10 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/arraypractice/ArrayPractice.java" />
-        <option value="$PROJECT_DIR$/src/APCompsci/AIFriend/Review/ScaleMutator/ScaleMutatorDriver.java" />
-        <option value="$PROJECT_DIR$/src/APCompsci/AIFriend/Review/ScaleMutator/ScaleMutatorPanel.java" />
-        <option value="$PROJECT_DIR$/src/APCompsci/AIFriend/Review/ScaleMutator/ScaleMutator.java" />
         <option value="$PROJECT_DIR$/src/APCompsci/AIFriend/Review/song/Song.java" />
         <option value="$PROJECT_DIR$/src/song/Canvas.java" />
         <option value="$PROJECT_DIR$/src/song/Text.java" />
@@ -230,12 +240,34 @@
         <option value="$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Circle.java" />
         <option value="$PROJECT_DIR$/src/singleton.java" />
         <option value="$PROJECT_DIR$/src/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pattern/SingleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pattern/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pattern/SingleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/PhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/PhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mhisoft/matthew/learningjava/effectivejava/PhoneNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ComplexNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RealNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/ComplexNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ShapeMath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/FigureFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Calculate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/FigureCalculator.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="39" />
     <option name="y" value="63" />
     <option name="width" value="1852" />
@@ -270,9 +302,119 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scoping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timestable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timestable" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timestable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timestable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timestable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timestable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learningjava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timestable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learningjava" type="462c0819:PsiDirectoryNode" />
+              <item name="effectivejava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timestable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timestable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timestable" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timestable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="timestable" type="58d84e3e:PackageViewProjectNode" />
+              <item name="scoping" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="timestable" type="58d84e3e:PackageViewProjectNode" />
+              <item name="timestable" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="timestable" type="58d84e3e:PackageViewProjectNode" />
+              <item name="timestable" type="616d4139:PackageViewModuleNode" />
+              <item name="com.mhisoft.matthew.learningjava" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="timestable" type="58d84e3e:PackageViewProjectNode" />
+              <item name="timestable" type="616d4139:PackageViewModuleNode" />
+              <item name="pattern" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +435,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -304,16 +446,19 @@
       <recent name="com.mhisoft.matthew.learningjava" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mhisoft.matthew.learningjava.effectivejava" />
       <recent name="com.mhisoft.matthew" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\src\matthew\timestable\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mhisoft.matthew.hastable" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\src\matthew\timestable\src\song" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factory" />
+      <recent name="" />
+      <recent name="com.mhisoft.matthew.hastable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\src\matthew\timestable\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,7 +473,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingleTest">
+  <component name="RunManager" selected="Application.FigureCalculator">
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -397,19 +542,6 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
-    <configuration name="AP1ch11lab02aTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.AP1ch11lab02aTest" />
-      <module name="timestable" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BubbleArray" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.scoping.BubbleArray" />
       <module name="timestable" />
@@ -419,12 +551,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Picture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pixlab.pixLab.classes.Picture" />
+    <configuration name="FigureCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.FigureCalculator" />
       <module name="timestable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pixlab.pixLab.classes.*" />
+          <option name="PATTERN" value="com.mhisoft.matthew.learningjava.effectivejava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -432,23 +564,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.Singleton" />
+    <configuration name="FigureFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory.FigureFactory" />
       <module name="timestable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="timestable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.*" />
+          <option name="PATTERN" value="com.mhisoft.matthew.learningjava.effectivejava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pattern" />
-      <option name="MAIN_CLASS_NAME" value="pattern.SingleTest" />
+      <option name="PACKAGE_NAME" value="com.mhisoft.matthew.learningjava.effectivejava" />
+      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.PhoneNumberTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -459,16 +597,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleTest.testStringWith_prefixWhiteSpaces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneNumberTest.testInstanceOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="timestable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.*" />
+          <option name="PATTERN" value="com.mhisoft.matthew.learningjava.effectivejava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pattern" />
-      <option name="MAIN_CLASS_NAME" value="pattern.SingleTest" />
+      <option name="PACKAGE_NAME" value="com.mhisoft.matthew.learningjava.effectivejava" />
+      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.PhoneNumberTest" />
+      <option name="METHOD_NAME" value="testInstanceOf" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneNumberTest.testStringWith_prefixWhiteSpaces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="timestable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mhisoft.matthew.learningjava.effectivejava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mhisoft.matthew.learningjava.effectivejava" />
+      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.PhoneNumberTest" />
       <option name="METHOD_NAME" value="testStringWith_prefixWhiteSpaces" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -493,19 +652,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.BubbleArray" />
-      <item itemvalue="Application.AP1ch11lab02aTest" />
-      <item itemvalue="Application.Picture" />
-      <item itemvalue="Application.Singleton" />
-      <item itemvalue="JUnit.SingleTest.testStringWith_prefixWhiteSpaces" />
-      <item itemvalue="JUnit.SingleTest" />
+      <item itemvalue="Application.FigureFactory" />
+      <item itemvalue="JUnit.PhoneNumberTest" />
+      <item itemvalue="JUnit.PhoneNumberTest.testStringWith_prefixWhiteSpaces" />
+      <item itemvalue="JUnit.PhoneNumberTest.testInstanceOf" />
+      <item itemvalue="Application.FigureCalculator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SingleTest" />
-        <item itemvalue="JUnit.SingleTest.testStringWith_prefixWhiteSpaces" />
-        <item itemvalue="Application.Singleton" />
-        <item itemvalue="Application.Picture" />
-        <item itemvalue="Application.AP1ch11lab02aTest" />
+        <item itemvalue="Application.FigureCalculator" />
+        <item itemvalue="Application.FigureFactory" />
+        <item itemvalue="JUnit.PhoneNumberTest.testInstanceOf" />
+        <item itemvalue="JUnit.PhoneNumberTest.testStringWith_prefixWhiteSpaces" />
+        <item itemvalue="JUnit.PhoneNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -634,34 +793,79 @@
       <option name="project" value="LOCAL" />
       <updated>1584636489305</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactors and unit test for Singleton class">
+      <created>1584754665075</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584754665075</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactors and unit test for Singleton class">
+      <created>1584837987585</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584837987585</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactors and unit test for Singleton class">
+      <created>1585168994422</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585168994422</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingleTest_testStringWith_prefixWhiteSpaces - 2020.03.20 at 21h 27m 44s.xml">
-      <configuration name="SingleTest.testStringWith_prefixWhiteSpaces" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleTest_testStringWith_prefixWhiteSpaces - 2020.03.20 at 21h 34m 13s.xml">
-      <configuration name="SingleTest.testStringWith_prefixWhiteSpaces" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleTest_testStringWith_prefixWhiteSpaces - 2020.03.20 at 21h 34m 32s.xml">
-      <configuration name="SingleTest.testStringWith_prefixWhiteSpaces" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleTest - 2020.03.20 at 21h 35m 45s.xml">
+    <history-entry file="SingleTest - 2020.03.21 at 20h 46m 07s.xml">
       <configuration name="SingleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingleTest - 2020.03.20 at 21h 36m 28s.xml">
-      <configuration name="SingleTest" configurationId="JUnit" />
+    <history-entry file="PhoneNumberTest - 2020.03.25 at 16h 32m 07s.xml">
+      <configuration name="PhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberTest - 2020.03.25 at 16h 32m 36s.xml">
+      <configuration name="PhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberTest - 2020.03.25 at 16h 33m 13s.xml">
+      <configuration name="PhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberTest - 2020.03.25 at 16h 33m 24s.xml">
+      <configuration name="PhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberTest - 2020.03.25 at 16h 33m 28s.xml">
+      <configuration name="PhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberTest - 2020.03.25 at 16h 34m 13s.xml">
+      <configuration name="PhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberTest_testStringWith_prefixWhiteSpaces - 2020.03.25 at 16h 35m 38s.xml">
+      <configuration name="PhoneNumberTest.testStringWith_prefixWhiteSpaces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberTest_testStringWith_prefixWhiteSpaces - 2020.03.25 at 16h 36m 51s.xml">
+      <configuration name="PhoneNumberTest.testStringWith_prefixWhiteSpaces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberTest_testInstanceOf - 2020.03.25 at 16h 42m 45s.xml">
+      <configuration name="PhoneNumberTest.testInstanceOf" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="66700000" />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
       <window_info id="Structure" order="1" weight="0.2489339" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -671,27 +875,27 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287234" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47978723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="SQL" order="7" />
       <window_info anchor="bottom" id="Changes" order="8" />
       <window_info anchor="bottom" id="IvyIDEA" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.28404257" />
       <window_info anchor="bottom" id="Application Servers" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3723404" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -714,381 +918,159 @@
     <MESSAGE value="Polymorphism Project example" />
     <MESSAGE value="changed and resrun on 2019 summer&#10;" />
     <MESSAGE value="changed and resrun on 2019 summer" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed and resrun on 2019 summer" />
+    <MESSAGE value="refactors and unit test for Singleton class" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactors and unit test for Singleton class" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/song/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/song/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2048#2049#0" expanded="true" />
-            <element signature="e#2175#2176#0" expanded="true" />
-            <element signature="e#2199#2200#0" expanded="true" />
-            <element signature="e#2503#2504#0" expanded="true" />
-            <element signature="e#2539#2540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/song/Song.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/APCompsci/AIFriend/Review/sand/SandDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2676#2677#0" expanded="true" />
-            <element signature="e#2722#2723#0" expanded="true" />
-            <element signature="e#2991#2992#0" expanded="true" />
-            <element signature="e#3022#3023#0" expanded="true" />
-            <element signature="e#3054#3055#0" expanded="true" />
-            <element signature="e#3081#3082#0" expanded="true" />
-            <element signature="e#3397#3398#0" expanded="true" />
-            <element signature="e#3437#3438#0" expanded="true" />
-            <element signature="e#3488#3489#0" expanded="true" />
-            <element signature="e#3519#3520#0" expanded="true" />
-            <element signature="e#3734#3735#0" expanded="true" />
-            <element signature="e#3774#3775#0" expanded="true" />
-            <element signature="e#4393#4394#0" expanded="true" />
-            <element signature="e#4448#4449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6137">
-          <caret line="388" column="39" selection-start-line="388" selection-start-column="39" selection-end-line="388" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10506">
-          <caret line="656" column="18" selection-start-line="656" selection-start-column="18" selection-end-line="656" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12835">
-          <caret line="806" selection-start-line="806" selection-end-line="806" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/APCompsci/AIFriend/Review/PosAdjectives.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/APCompsci/AIFriend/Review/sand/SandLab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/SkiJumper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/AP1ch11lab02aTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Fish2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Wolf2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/AP1ch11lab04aTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Animal2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/images/7inX95in.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/images/640x480.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/imagesStereo/ChiArtLionS.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/imagesStereo/HallS.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/imagesStereo/OldHouseS.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/song/lyrics.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Athlete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/Canine2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/doc/allclasses-frame.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/doc/resources/inherit.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/CalculatePi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inheritance/Animal2.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/images/7inX95in.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/images/640x480.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/imagesStereo/ChiArtLionS.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/imagesStereo/HallS.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/imagesStereo/OldHouseS.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/song/lyrics.txt" />
+    <entry file="file://$PROJECT_DIR$/src/inheritance/Athlete.java" />
+    <entry file="file://$PROJECT_DIR$/src/inheritance/Canine2.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/doc/allclasses-frame.html" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/doc/resources/inherit.gif" />
+    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/CalculatePi.java" />
     <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/asdf.java" />
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/ColorChooser.java">
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/ColorChooser.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/DigitalPicture.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/FileChooser.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/ImageDisplay.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/IntArrayWorker.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/IntArrayWorkerTester.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/leftArrow.gif" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/imagesStereo/bicyclesS.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/PictureExplorer.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/PictureFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/PictureTester.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/Picture.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Rectangle.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/ShapeMath.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Circle.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/alpha/AlphaComp.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/alpha/ArraysTookbox.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/Pixel.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/SimplePicture.java" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/rightArrow.gif" />
+    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/~WRL1689.tmp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="595">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/DigitalPicture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/FileChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/ImageDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/IntArrayWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/IntArrayWorkerTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/leftArrow.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/imagesStereo/bicyclesS.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/PictureExplorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/PictureFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/RealNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/ComplexNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Rectangle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Circle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/PhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/PictureTester.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mhisoft/matthew/learningjava/effectivejava/PhoneNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="37" selection-start-line="45" selection-start-column="2" selection-end-line="46" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="527">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Rectangle.java">
+    <entry file="jar://$PROJECT_DIR$/../lib/junit-4.13.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/ShapeMath.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pattern/SingleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/alpha/AlphaComp.java">
+    <entry file="file://$PROJECT_DIR$/../scoping/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mhisoft/matthew/learningjava/alpha/ArraysTookbox.java">
+    <entry file="file://$PROJECT_DIR$/../.idea/.name">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/Pixel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/SimplePicture.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ShapeMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/FactorialCalculations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/rightArrow.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/~WRL1689.tmp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pattern/SingleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/FigureFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pattern/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/FigureCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1150,6 +1132,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
