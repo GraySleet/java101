@@ -5,17 +5,23 @@ import com.mhisoft.matthew.learningjava.effectivejava.Rectangle;
 import com.mhisoft.matthew.learningjava.effectivejava.ShapeMath;
 
 public class FigureFactory {
+
+    public enum shape
+    {
+        circle, rectangle
+    }
+
 //todo make this choice enum
-    public static ShapeMath createShape(int choice) {
+    public static ShapeMath createShape(shape shapes) {
 
-        switch (choice) {
+        switch (shapes) {
 
-            case 1:
+            case circle:
                 return new Circle();
 
 
 
-            case 2:
+            case rectangle:
                 return new Rectangle();
 
             default:
@@ -26,14 +32,6 @@ public class FigureFactory {
     }
 
 
-    public static void main(String[] args) {
-        System.out.println(FigureFactory.createShape(1));
-        System.out.println(FigureFactory.createShape(2));
-
-
-
-
-    }
 
 
 
