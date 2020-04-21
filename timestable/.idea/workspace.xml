@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb1a9df-6cf0-49d8-8089-1179c7690827" name="Default" comment="refactors and unit test for Singleton class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ComplexNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Except.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/matrices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/FigureCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/FigureCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/FigureFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/FigureFactory.java" afterDir="false" />
     </list>
     <list id="15101483-f870-44db-a8b9-c08034bbbfb4" name="local project files" comment="local project files">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -79,111 +72,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Comparable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ComplexNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/Factorial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/prime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ComplexNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/matrices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Circle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="20" selection-start-line="11" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="334">
+              <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/FigureCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-              <folding>
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/generic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory/FigureFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -216,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/AP1ch11lab02aTest.java" />
         <option value="$PROJECT_DIR$/src/inheritance/Wolf2.java" />
         <option value="$PROJECT_DIR$/src/inheritance/Fish2.java" />
         <option value="$PROJECT_DIR$/src/inheritance/Canine2.java" />
@@ -267,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/Factorial.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/prime.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ComplexNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/matrices.java" />
       </list>
     </option>
   </component>
@@ -406,6 +310,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -431,7 +336,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ComplexNumber">
+  <component name="RunManager" selected="Application.matrices">
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -608,12 +512,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.generic" />
+    <configuration name="matrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.matrices" />
       <module name="timestable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mhisoft.matthew.learningjava.*" />
+          <option name="PATTERN" value="com.mhisoft.matthew.learningjava.effectivejava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -649,17 +553,17 @@
       <item itemvalue="Application.BubbleArray" />
       <item itemvalue="Application.Except" />
       <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.generic" />
       <item itemvalue="Application.prime" />
       <item itemvalue="Application.ComplexNumber" />
+      <item itemvalue="Application.matrices" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.matrices" />
         <item itemvalue="Application.ComplexNumber" />
         <item itemvalue="Application.prime" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Except" />
-        <item itemvalue="Application.generic" />
       </list>
     </recent_temporary>
   </component>
@@ -816,7 +720,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585347277773</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="refactors and unit test for Singleton class">
+      <created>1587430470369</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587430470370</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -865,9 +776,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24786781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25053304" />
       <window_info id="Structure" order="1" weight="0.2489339" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -877,7 +787,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47978723" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47978723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -928,7 +838,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/asdf.java" />
     <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/ColorChooser.java" />
     <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/DigitalPicture.java" />
     <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/FileChooser.java" />
@@ -1148,8 +1057,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ComplexNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/matrices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+          <folding>
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
