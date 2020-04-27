@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb1a9df-6cf0-49d8-8089-1179c7690827" name="Default" comment="refactors and unit test for Singleton class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/matrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Averager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/polynomials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="15101483-f870-44db-a8b9-c08034bbbfb4" name="local project files" comment="local project files">
@@ -75,19 +77,70 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ComplexNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/matrices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/polynomials.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Averager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/matrices.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+            <state relative-caret-position="450">
+              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
               <folding>
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="509" column="11" selection-start-line="509" selection-start-column="11" selection-end-line="509" selection-end-column="11" />
+              <folding>
+                <element signature="e#17619#17620#0" expanded="true" />
+                <element signature="e#17660#17661#0" expanded="true" />
+                <element signature="e#43969#43970#0" expanded="true" />
+                <element signature="e#43996#43997#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,9 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/Wolf2.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/Fish2.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/Canine2.java" />
         <option value="$PROJECT_DIR$/src/inheritance/Animal2.java" />
         <option value="$PROJECT_DIR$/src/pixlab/pixLab/classes/ColorChooser.java" />
         <option value="$PROJECT_DIR$/src/pixlab/pixLab/classes/DigitalPicture.java" />
@@ -171,6 +221,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/prime.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ComplexNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/matrices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/polynomials.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Averager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ThreadDemo.java" />
       </list>
     </option>
   </component>
@@ -215,6 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,7 +364,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -395,7 +448,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.matrices">
+  <component name="RunManager" selected="Application.ThreadDemo">
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -464,6 +517,19 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration name="Averager$Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.Averager$Test" />
+      <module name="timestable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mhisoft.matthew.learningjava.effectivejava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BubbleArray" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.scoping.BubbleArray" />
       <module name="timestable" />
@@ -486,25 +552,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Except" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.Except" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.ThreadDemo" />
       <module name="timestable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mhisoft.matthew.learningjava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.Factorial" />
-      <module name="timestable" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mhisoft.matthew.learningjava.*" />
+          <option name="PATTERN" value="com.mhisoft.matthew.learningjava.effectivejava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -525,8 +578,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.prime" />
+    <configuration name="polynomials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mhisoft.matthew.learningjava.effectivejava.polynomials" />
       <module name="timestable" />
       <extension name="coverage">
         <pattern>
@@ -550,20 +603,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Averager$Test" />
       <item itemvalue="Application.BubbleArray" />
-      <item itemvalue="Application.Except" />
-      <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.prime" />
       <item itemvalue="Application.ComplexNumber" />
+      <item itemvalue="Application.ThreadDemo" />
       <item itemvalue="Application.matrices" />
+      <item itemvalue="Application.polynomials" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.Averager$Test" />
+        <item itemvalue="Application.polynomials" />
         <item itemvalue="Application.matrices" />
         <item itemvalue="Application.ComplexNumber" />
-        <item itemvalue="Application.prime" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.Except" />
       </list>
     </recent_temporary>
   </component>
@@ -727,7 +780,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587430470370</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="refactors and unit test for Singleton class">
+      <created>1587498932605</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587498932605</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -776,8 +836,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25053304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
       <window_info id="Structure" order="1" weight="0.2489339" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -787,7 +848,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47978723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47127658" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -833,15 +894,23 @@
     <MESSAGE value="refactors and unit test for Singleton class" />
     <option name="LAST_COMMIT_MESSAGE" value="refactors and unit test for Singleton class" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ThreadDemo.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/ColorChooser.java" />
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/DigitalPicture.java" />
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/FileChooser.java" />
-    <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/ImageDisplay.java" />
     <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/IntArrayWorker.java" />
     <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/IntArrayWorkerTester.java" />
     <entry file="file://$PROJECT_DIR$/src/pixlab/pixLab/classes/leftArrow.gif" />
@@ -1058,17 +1127,60 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ComplexNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/matrices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
+            <element signature="e#651#652#0" expanded="true" />
             <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
             <element signature="e#759#760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/polynomials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/Averager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="509" column="11" selection-start-line="509" selection-start-column="11" selection-end-line="509" selection-end-column="11" />
+          <folding>
+            <element signature="e#17619#17620#0" expanded="true" />
+            <element signature="e#17660#17661#0" expanded="true" />
+            <element signature="e#43969#43970#0" expanded="true" />
+            <element signature="e#43996#43997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mhisoft/matthew/learningjava/effectivejava/ThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
